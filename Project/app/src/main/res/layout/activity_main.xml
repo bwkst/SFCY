@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@mipmap/mainbackgroundimage"
+    android:orientation="vertical"
+    android:padding="70dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:height="70dp"
+            android:fontFamily="@font/pinyinti"
+            android:text="欢迎使用"
+            android:textAlignment="center"
+            android:textColor="#E0E0F0"
+            android:textSize="48sp"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+
+        <TextView
+            android:id="@+id/projectname"
+            android:text="天线小车"
+            android:textSize="60sp"
+            android:textColor="#E0E0F0"
+            android:textAlignment="center"
+            android:fontFamily="@font/pinyinti"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/loginbutton"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/loginbuttonstyle"
+                android:text="登陆"
+                android:textSize="32sp"
+                android:textColor="#404078"
+                android:textAlignment="center"
+                android:fontFamily="@font/pinyinti"
+                />
+
+            <Button
+                android:id="@+id/registerbutton"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/registerbuttonstyle"
+                android:text="注册"
+                android:textSize="32sp"
+                android:textColor="#404078"
+                android:textAlignment="center"
+                android:fontFamily="@font/pinyinti"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+
