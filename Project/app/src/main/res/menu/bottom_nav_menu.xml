@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_function"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="小车使用" />
+
+    <item
+        android:id="@+id/navigation_memberarea"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="用户专区" />
+
+
+</menu>

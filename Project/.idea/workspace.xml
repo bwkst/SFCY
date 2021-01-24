@@ -2,7 +2,9 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="Nexus 6" />
+      </config>
     </shared>
   </component>
   <component name="BranchesTreeState">
@@ -24,7 +26,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="524e59a1-915c-4bb9-afb4-a80645358251" name="Default Changelist" comment="" />
+    <list default="true" id="a5fe38ee-5f83-4baf-97d8-fe546e7fc499" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,10 +38,31 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1mswVkzz8kiFRLoonMlewPCnIUv" />
+  <component name="ProjectId" id="1nVZV37wsyAuasSNGQR8b2Jbgz6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,6 +72,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.367853146">
+      <recent name="com.mainactivity" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -121,11 +149,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="524e59a1-915c-4bb9-afb4-a80645358251" name="Default Changelist" comment="" />
-      <created>1610295632237</created>
+      <changelist id="a5fe38ee-5f83-4baf-97d8-fe546e7fc499" name="Default Changelist" comment="" />
+      <created>1611477239565</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1610295632237</updated>
+      <updated>1611477239565</updated>
     </task>
     <servers />
   </component>
@@ -140,5 +168,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="372" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611487117996">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="372" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611487117996" />
   </component>
 </project>

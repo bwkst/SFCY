@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_function">
+
+    <fragment
+        android:id="@+id/navigation_function"
+        android:name="com.mainactivity.ui.function.FunctionFragment"
+        android:label="小车使用"
+        tools:layout="@layout/fragment_function" />
+
+    <fragment
+        android:id="@+id/navigation_memberarea"
+        android:name="com.mainactivity.ui.memberarea.MemberareaFragment"
+        android:label="用户专区"
+        tools:layout="@layout/fragment_memberarea" />
+
+</navigation>
