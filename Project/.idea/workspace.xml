@@ -26,7 +26,37 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5fe38ee-5f83-4baf-97d8-fe546e7fc499" name="Default Changelist" comment="" />
+    <list default="true" id="a5fe38ee-5f83-4baf-97d8-fe546e7fc499" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/mainactivity/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mainactivity/RegisterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/registercheckbox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/registerconfirm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/registeredit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/guochaoti043.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/lishu137.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/shibeiyanti.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/shoujinti062.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/shoukesong095.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/yahei035.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/yingxiongheiti003.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/zhenhun024.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MainActivity.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MainActivity.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainactivity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainactivity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,19 +93,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1nVZV37wsyAuasSNGQR8b2Jbgz6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/font" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.680786388">
+      <recent name="com.mainactivity" />
+    </key>
     <key name="android.template.367853146">
       <recent name="com.mainactivity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\bwkst\SFCY\Project\app\src\main\res\font" />
+      <recent name="D:\bwkst\SFCY\Project\app\src\main\res\drawable-xxhdpi" />
+      <recent name="D:\bwkst\SFCY\Project\app\src\main\res\drawable" />
     </key>
   </component>
   <component name="RunManager">
@@ -169,10 +211,18 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611487117996">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="372" y="97" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611508377027">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="372" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611487117996" />
+    <state x="372" y="97" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760@0.0.1280.760" timestamp="1611508377027" />
+    <state x="94" y="94" width="1093" height="573" key="AVDManager" timestamp="1611533630369">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="94" y="94" width="1093" height="573" key="AVDManager/0.0.1280.760@0.0.1280.760" timestamp="1611533630369" />
   </component>
 </project>

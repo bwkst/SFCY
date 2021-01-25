@@ -1,0 +1,9 @@
+com/mainactivity/MainActivity.java
+ com.mainactivity.MainActivity
+ com.mainactivity.MainActivity$1
+com/mainactivity/mainpage.java
+ com.mainactivity.mainpage
+com/mainactivity/RegisterActivity.java
+ com.mainactivity.RegisterActivity
+ com.mainactivity.RegisterActivity$1
+ com.mainactivity.RegisterActivity$2

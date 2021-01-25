@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--页面整体-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="13dp">
+
+        <!--大标题-->
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="注册"
+            android:fontFamily="@font/shoukesong095"
+            android:textColor="#4b4199"
+            android:textSize="48sp" />
+
+        <!--提示输入用户名-->
+        <TextView
+            android:id="@+id/register1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:fontFamily="@font/shoukesong095"
+            android:text="用户名称"
+            android:textColor="#4b4199"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/registercount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/register1"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/registeredit"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="5dp"
+            android:hint="至少4个字符，最多不超过10个字符"
+            android:maxLength="18"
+
+            android:fontFamily="@font/shoukesong095"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#6960b3"
+            android:textColorHint="#bab4e7"
+            android:textSize="16sp" />
+
+        <!--提示输入密码-->
+        <TextView
+            android:id="@+id/register2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registercount"
+            android:fontFamily="@font/shoukesong095"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="密码"
+            android:textColor="#4b4199"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/registerpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/register2"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/shoukesong095"
+            android:background="@drawable/registeredit"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="5dp"
+            android:hint="8~20位，需同时包含字母数字"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:maxLength="20"
+
+            android:digits="1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#6960b3"
+            android:textColorHint="#bab4e7"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/register2">
+
+            <CheckBox
+                android:id="@+id/cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/registercheckbox"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:paddingRight="15dp"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/registerpassword"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/registerconfirm"
+            android:text="注册"
+            android:textSize="20sp"
+            android:fontFamily="@font/shoukesong095"
+            android:textColor="#ffffff"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
