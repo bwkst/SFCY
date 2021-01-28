@@ -14,7 +14,8 @@
         android:layout_height="350dp"
         android:orientation="vertical"
         android:paddingTop="50dp">
-
+        <!-- 字 -->
+        <!-- 欢迎使用 -->
         <TextView
             android:id="@+id/welcome"
             android:height="70dp"
@@ -26,6 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="120dp" />
 
+        <!-- 天线小车 -->
         <TextView
             android:id="@+id/projectname"
             android:text="天线小车"
@@ -42,9 +44,12 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:orientation="horizontal">
+        <!-- 按钮 -->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+            <!-- Relative为了排版 -->
+            <!-- 登陆 -->
             <Button
                 android:id="@+id/loginbutton"
                 android:layout_width="125dp"
@@ -56,7 +61,7 @@
                 android:textAlignment="center"
                 android:fontFamily="@font/pinyinti"
                 />
-
+            <!-- 注册 -->
             <Button
                 android:id="@+id/registerbutton"
                 android:layout_width="125dp"

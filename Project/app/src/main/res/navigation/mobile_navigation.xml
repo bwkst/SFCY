@@ -3,18 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_function">
+    app:startDestination="@+id/navigation_memberarea">
+    <!-- 初始画面 -->
 
     <fragment
         android:id="@+id/navigation_function"
         android:name="com.mainactivity.ui.function.FunctionFragment"
         android:label="小车使用"
         tools:layout="@layout/fragment_function" />
+    <!-- 小车使用页面 -->
 
     <fragment
         android:id="@+id/navigation_memberarea"
         android:name="com.mainactivity.ui.memberarea.MemberareaFragment"
         android:label="用户专区"
         tools:layout="@layout/fragment_memberarea" />
+    <!-- 用户专区页面 -->
 
 </navigation>

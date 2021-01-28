@@ -14,6 +14,7 @@
         android:layout_height="180dp"
         android:orientation="vertical"
         android:paddingTop="10dp">
+        <!-- 字 -->
 
         <TextView
             android:id="@+id/welcomemember"
@@ -43,6 +44,7 @@
         android:layout_height="50dp"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal">
+        <!-- 按钮 -->
 
         <Button
             android:id="@+id/creditstore"

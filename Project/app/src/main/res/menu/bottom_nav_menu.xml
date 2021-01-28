@@ -5,11 +5,13 @@
         android:id="@+id/navigation_function"
         android:icon="@drawable/ic_home_black_24dp"
         android:title="小车使用" />
+    <!-- 小车使用选项 -->
 
     <item
         android:id="@+id/navigation_memberarea"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="用户专区" />
+    <!-- 用户专区选项 -->
 
 
 </menu>
