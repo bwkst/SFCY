@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_memberarea">
+    app:startDestination="@+id/navigation_function">
     <!-- 初始画面 -->
 
     <fragment
@@ -19,5 +19,19 @@
         android:label="用户专区"
         tools:layout="@layout/fragment_memberarea" />
     <!-- 用户专区页面 -->
+
+    <fragment
+        android:id="@+id/successuse"
+        android:name="com.mainactivity.ui.function.SuccessUse"
+        android:label="小车使用"
+        tools:layout="@layout/fragment_success_use" />
+    <!-- 小车开启页面 -->
+
+    <fragment
+        android:id="@+id/countprice"
+        android:name="com.mainactivity.ui.function.CountPrice"
+        android:label="小车使用"
+        tools:layout="@layout/fragment_count_price" />
+    <!-- 费用结算页面 -->
 
 </navigation>
