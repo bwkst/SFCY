@@ -16,7 +16,7 @@
         android:paddingTop="50dp">
 
         <TextView
-            android:id="@+id/successusenotice"
+            android:id="@+id/successusenotice2"
             android:height="70dp"
             android:fontFamily="@font/pinyinti"
             android:text="开启成功"
@@ -37,7 +37,7 @@
             android:layout_height="60dp">
 
             <TextView
-                android:id="@+id/countweight"
+                android:id="@+id/countweight2"
                 android:height="70dp"
                 android:fontFamily="@font/pinyinti"
                 android:text="重量(KG)："
@@ -47,10 +47,10 @@
                 android:layout_height="60dp" />
 
             <TextView
-                android:id="@+id/countweightno"
+                android:id="@+id/countweightno2"
                 android:height="70dp"
                 android:fontFamily="@font/pinyinti"
-                android:text="111"
+                android:text="0"
                 android:textColor="#161648"
                 android:textSize="30sp"
                 android:layout_width="150dp"
@@ -63,6 +63,25 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/weightwarning"
+                android:height="70dp"
+                android:fontFamily="@font/pinyinti"
+                android:textAlignment="center"
+                android:text="温馨提示：不应摆放东西在小车上哟~"
+                android:textColor="#161648"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingTop="10dp"/>
+
+    </LinearLayout><!-- 提示 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="80dp"
         android:orientation="horizontal"
         android:paddingTop="20dp">
@@ -71,7 +90,7 @@
             android:layout_height="60dp">
 
             <TextView
-                android:id="@+id/counttime"
+                android:id="@+id/counttime2"
                 android:height="70dp"
                 android:fontFamily="@font/pinyinti"
                 android:text="时间(分钟)："
@@ -81,7 +100,7 @@
                 android:layout_height="80dp" />
 
             <TextView
-                android:id="@+id/counttimeno"
+                android:id="@+id/counttimeno2"
                 android:height="70dp"
                 android:fontFamily="@font/pinyinti"
                 android:text="111"
@@ -103,10 +122,10 @@
         android:layout_gravity="center_horizontal">
 
         <Button
-            android:id="@+id/endservice"
+            android:id="@+id/endservice2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/endservicebuttonstyle"
+            android:background="@drawable/endservice2buttonstyle"
             android:text="结束运行"
             android:textSize="32sp"
             android:textColor="#E0E0F0"
@@ -124,10 +143,10 @@
         android:layout_gravity="center_horizontal">
 
         <Button
-            android:id="@+id/feedback_car"
+            android:id="@+id/feedback_car2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/feedbackcarbuttonstyle"
+            android:background="@drawable/feedbackcar2buttonstyle"
             android:text="问题反馈"
             android:textSize="32sp"
             android:textColor="#E0E0F0"

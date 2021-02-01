@@ -20,6 +20,8 @@ import com.mainactivity.R;
 
 public class CountPrice extends Fragment {
 
+    private Button PayButton;
+    private Button FeedbackPrice;
 
     public CountPrice() {
     }
@@ -28,7 +30,25 @@ public class CountPrice extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View root = inflater.inflate(R.layout.fragment_success_use, container, false);
+        View root = inflater.inflate(R.layout.fragment_count_price, container, false);
+
+        PayButton = PayButton.findViewById(R.id.paybutton);
+        PayButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //跳转到付费Fragment
+                Navigation.findNavController(root).navigate(R.id.pay);
+            }
+        });
+
+        FeedbackPrice = FeedbackPrice.findViewById(R.id.feedback_price);
+        FeedbackPrice.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //跳转到计费反馈Fragment
+                Navigation.findNavController(root).navigate(R.id.csprice);
+            }
+        });
 
         return root;
     }

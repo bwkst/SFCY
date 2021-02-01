@@ -20,6 +20,8 @@ public class FunctionFragment extends Fragment {
 
     private FunctionViewModel FunctionViewModel;
     private Button SuccessUse;
+    private Button SuccessWin;
+    private Button FailToOpen;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -27,6 +29,7 @@ public class FunctionFragment extends Fragment {
                 new ViewModelProvider(this).get(FunctionViewModel.class);
         View root = inflater.inflate(R.layout.fragment_function, container, false);
         final TextView textView = root.findViewById(R.id.text_function);
+
         SuccessUse = SuccessUse.findViewById(R.id.scancodeuse);
         SuccessUse.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +38,26 @@ public class FunctionFragment extends Fragment {
                 Navigation.findNavController(root).navigate(R.id.successuse);
             }
         });
+
+        SuccessWin = SuccessWin.findViewById(R.id.scancodewin);
+        SuccessWin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //跳转到Fragment
+                Navigation.findNavController(root).navigate(R.id.successwin);
+            }
+        });
+
+        FailToOpen = FailToOpen.findViewById(R.id.testfail);
+        FailToOpen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //跳转到Fragment
+                Navigation.findNavController(root).navigate(R.id.failtoopen);
+            }
+        });
+
+
         FunctionViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

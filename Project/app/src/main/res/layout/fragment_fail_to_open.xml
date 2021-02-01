@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.function.FunctionFragment"
+    android:background="#BAB4E7"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:id="@+id/failtoopennotice"
+            android:height="70dp"
+            android:fontFamily="@font/pinyinti"
+            android:text="开启失败"
+            android:textAlignment="center"
+            android:textColor="#161648"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+    </LinearLayout><!-- 标题 -->
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/bluetoothwarning"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bluetoothwarningbuttonstyle"
+            android:text="点此开启蓝牙"
+            android:textSize="32sp"
+            android:textColor="#E0E0F0"
+            android:textAlignment="center"
+            android:fontFamily="@font/pinyinti"
+            />
+
+    </LinearLayout><!-- 结束运行按钮 -->
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/feedback_car3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/feedbackcar3buttonstyle"
+            android:text="问题反馈"
+            android:textSize="32sp"
+            android:textColor="#E0E0F0"
+            android:textAlignment="center"
+            android:fontFamily="@font/pinyinti"
+            />
+    </LinearLayout><!-- 问题反馈按钮 -->
+
+</LinearLayout>
+

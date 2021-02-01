@@ -18,31 +18,22 @@ import android.widget.TextView;
 import com.mainactivity.R;
 
 
-public class SuccessUse extends Fragment {
+public class FailToOpen extends Fragment {
 
-    private Button EndService;
-    private Button FeedbackCar;
+    private Button FeedbackCar3;
 
-    public SuccessUse() {
+    public FailToOpen() {
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View root = inflater.inflate(R.layout.fragment_success_use, container, false);
+        View root = inflater.inflate(R.layout.fragment_fail_to_open, container, false);
 
-        EndService = EndService.findViewById(R.id.endservice);
-        EndService.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //跳转到计费Fragment
-                Navigation.findNavController(root).navigate(R.id.countprice);
-            }
-        });
 
-        FeedbackCar = FeedbackCar.findViewById(R.id.feedback_car);
-        FeedbackCar.setOnClickListener(new View.OnClickListener() {
+        FeedbackCar3 = FeedbackCar3.findViewById(R.id.feedback_car3);
+        FeedbackCar3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //跳转到车辆反馈Fragment

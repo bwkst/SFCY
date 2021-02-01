@@ -18,35 +18,35 @@ import android.widget.TextView;
 import com.mainactivity.R;
 
 
-public class SuccessUse extends Fragment {
+public class CountScore extends Fragment {
 
-    private Button EndService;
-    private Button FeedbackCar;
+    private Button GainButton;
+    private Button FeedbackPrice2;
 
-    public SuccessUse() {
+    public CountScore() {
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View root = inflater.inflate(R.layout.fragment_success_use, container, false);
+        View root = inflater.inflate(R.layout.fragment_count_score, container, false);
 
-        EndService = EndService.findViewById(R.id.endservice);
-        EndService.setOnClickListener(new View.OnClickListener() {
+        GainButton = GainButton.findViewById(R.id.paybutton);
+        GainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //跳转到计费Fragment
-                Navigation.findNavController(root).navigate(R.id.countprice);
+                //跳转到付费Fragment
+                Navigation.findNavController(root).navigate(R.id.navigation_function);
             }
         });
 
-        FeedbackCar = FeedbackCar.findViewById(R.id.feedback_car);
-        FeedbackCar.setOnClickListener(new View.OnClickListener() {
+        FeedbackPrice2 = FeedbackPrice2.findViewById(R.id.feedback_price2);
+        FeedbackPrice2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //跳转到车辆反馈Fragment
-                Navigation.findNavController(root).navigate(R.id.cscar);
+                //跳转到计费反馈Fragment
+                Navigation.findNavController(root).navigate(R.id.csprice);
             }
         });
 

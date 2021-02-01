@@ -11,15 +11,15 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="130dp"
         android:orientation="vertical"
-        android:paddingTop="50dp">
+        android:paddingTop="20dp">
 
         <TextView
-            android:id="@+id/successusenotice"
+            android:id="@+id/countscoretitle"
             android:height="70dp"
             android:fontFamily="@font/pinyinti"
-            android:text="开启成功"
+            android:text="本次获得积分"
             android:textAlignment="center"
             android:textColor="#161648"
             android:textSize="40sp"
@@ -37,7 +37,7 @@
             android:layout_height="60dp">
 
             <TextView
-                android:id="@+id/countweight"
+                android:id="@+id/weight2"
                 android:height="70dp"
                 android:fontFamily="@font/pinyinti"
                 android:text="重量(KG)："
@@ -47,10 +47,10 @@
                 android:layout_height="60dp" />
 
             <TextView
-                android:id="@+id/countweightno"
+                android:id="@+id/weightno2"
                 android:height="70dp"
                 android:fontFamily="@font/pinyinti"
-                android:text="111"
+                android:text="0"
                 android:textColor="#161648"
                 android:textSize="30sp"
                 android:layout_width="150dp"
@@ -71,7 +71,7 @@
             android:layout_height="60dp">
 
             <TextView
-                android:id="@+id/counttime"
+                android:id="@+id/time2"
                 android:height="70dp"
                 android:fontFamily="@font/pinyinti"
                 android:text="时间(分钟)："
@@ -81,7 +81,7 @@
                 android:layout_height="80dp" />
 
             <TextView
-                android:id="@+id/counttimeno"
+                android:id="@+id/timeno2"
                 android:height="70dp"
                 android:fontFamily="@font/pinyinti"
                 android:text="111"
@@ -96,25 +96,38 @@
     </LinearLayout><!-- 时间 -->
 
     <LinearLayout
-        android:layout_width="250dp"
-        android:layout_height="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
         android:orientation="horizontal"
-        android:paddingTop="30dp"
-        android:layout_gravity="center_horizontal">
-
-        <Button
-            android:id="@+id/endservice"
+        android:paddingTop="20dp">
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/endservicebuttonstyle"
-            android:text="结束运行"
-            android:textSize="32sp"
-            android:textColor="#E0E0F0"
-            android:textAlignment="center"
-            android:fontFamily="@font/pinyinti"
-            />
+            android:layout_height="60dp">
 
-    </LinearLayout><!-- 结束运行按钮 -->
+            <TextView
+                android:id="@+id/finalscore"
+                android:height="70dp"
+                android:fontFamily="@font/pinyinti"
+                android:text="获得积分："
+                android:textColor="#161648"
+                android:textSize="30sp"
+                android:layout_width="200dp"
+                android:layout_height="80dp" />
+
+            <TextView
+                android:id="@+id/finalscoreno"
+                android:height="70dp"
+                android:fontFamily="@font/pinyinti"
+                android:text="111"
+                android:textColor="#161648"
+                android:textSize="30sp"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+    </LinearLayout><!-- 获得积分 -->
 
     <LinearLayout
         android:layout_width="250dp"
@@ -124,10 +137,31 @@
         android:layout_gravity="center_horizontal">
 
         <Button
-            android:id="@+id/feedback_car"
+            android:id="@+id/gainbutton"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/feedbackcarbuttonstyle"
+            android:background="@drawable/gainbuttonstyle"
+            android:text="完成"
+            android:textSize="32sp"
+            android:textColor="#E0E0F0"
+            android:textAlignment="center"
+            android:fontFamily="@font/pinyinti"
+            />
+
+    </LinearLayout><!-- 提交按钮 -->
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/feedback_price2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/feedbackprice2buttonstyle"
             android:text="问题反馈"
             android:textSize="32sp"
             android:textColor="#E0E0F0"
