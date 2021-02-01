@@ -14,7 +14,6 @@
         android:layout_height="100dp"
         android:orientation="vertical"
         android:paddingTop="20dp">
-        <!-- 字 -->
 
         <TextView
             android:id="@+id/payment"
@@ -27,69 +26,176 @@
             android:layout_width="match_parent"
             android:layout_height="80dp" />
 
-    </LinearLayout>
+    </LinearLayout><!-- 标题 -->
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:orientation="vertical">
-        <!-- 字 -->
-
-        <TextView
-            android:id="@+id/weight"
-            android:height="70dp"
-            android:fontFamily="@font/pinyinti"
-            android:text="重量："
-            android:textColor="#161648"
-            android:textSize="40sp"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp" />
+            android:layout_height="60dp">
 
-        <TextView
-            android:id="@+id/time"
-            android:height="70dp"
-            android:fontFamily="@font/pinyinti"
-            android:text="时间："
-            android:textColor="#161648"
-            android:textSize="40sp"
+           <TextView
+               android:id="@+id/weight"
+               android:height="70dp"
+               android:fontFamily="@font/pinyinti"
+               android:text="重量(KG)："
+               android:textColor="#161648"
+               android:textSize="30sp"
+               android:layout_width="200dp"
+               android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/weightno"
+                android:height="70dp"
+                android:fontFamily="@font/pinyinti"
+                android:text="111"
+                android:textColor="#161648"
+                android:textSize="30sp"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+            />
+
+        </RelativeLayout>
+    </LinearLayout><!-- 重量 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:paddingTop="20dp"/>
+            android:layout_height="60dp">
 
-        <TextView
-            android:id="@+id/price"
-            android:height="70dp"
-            android:fontFamily="@font/pinyinti"
-            android:text="价格："
-            android:textColor="#161648"
-            android:textSize="40sp"
+            <TextView
+                android:id="@+id/time"
+                android:height="70dp"
+                android:fontFamily="@font/pinyinti"
+                android:text="时间(分钟)："
+                android:textColor="#161648"
+                android:textSize="30sp"
+                android:layout_width="200dp"
+                android:layout_height="80dp" />
+
+            <TextView
+                android:id="@+id/timeno"
+                android:height="70dp"
+                android:fontFamily="@font/pinyinti"
+                android:text="111"
+                android:textColor="#161648"
+                android:textSize="30sp"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+    </LinearLayout><!-- 时间 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:paddingTop="20dp"/>
+            android:layout_height="60dp">
 
-        <TextView
-            android:id="@+id/couponuse"
-            android:height="70dp"
-            android:fontFamily="@font/pinyinti"
-            android:text="优惠券使用："
-            android:textColor="#161648"
-            android:textSize="40sp"
+            <TextView
+                android:id="@+id/price"
+                android:height="70dp"
+                android:fontFamily="@font/pinyinti"
+                android:text="价格(元)："
+                android:textColor="#161648"
+                android:textSize="30sp"
+                android:layout_width="200dp"
+                android:layout_height="80dp" />
+
+            <TextView
+                android:id="@+id/priceno"
+                android:height="70dp"
+                android:fontFamily="@font/pinyinti"
+                android:text="111"
+                android:textColor="#161648"
+                android:textSize="30sp"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+    </LinearLayout><!-- 价格 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:paddingTop="20dp"/>
+            android:layout_height="60dp">
 
-        <TextView
-            android:id="@+id/finalprice"
-            android:height="70dp"
-            android:fontFamily="@font/pinyinti"
-            android:text="付款金额："
-            android:textColor="#161648"
-            android:textSize="40sp"
+            <TextView
+                android:id="@+id/couponuse"
+                android:height="70dp"
+                android:fontFamily="@font/pinyinti"
+                android:text="优惠券使用："
+                android:textColor="#161648"
+                android:textSize="30sp"
+                android:layout_width="200dp"
+                android:layout_height="80dp" />
+
+            <TextView
+                android:id="@+id/couponuseno"
+                android:height="70dp"
+                android:fontFamily="@font/pinyinti"
+                android:text="111"
+                android:textColor="#161648"
+                android:textSize="30sp"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+    </LinearLayout><!-- 优惠券使用 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:paddingTop="20dp"/>
+            android:layout_height="60dp">
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/finalprice"
+                android:height="70dp"
+                android:fontFamily="@font/pinyinti"
+                android:text="应付(元)："
+                android:textColor="#161648"
+                android:textSize="30sp"
+                android:layout_width="200dp"
+                android:layout_height="80dp" />
+
+            <TextView
+                android:id="@+id/finalpriceno"
+                android:height="70dp"
+                android:fontFamily="@font/pinyinti"
+                android:text="111"
+                android:textColor="#161648"
+                android:textSize="30sp"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+    </LinearLayout><!-- 应付金额 -->
 
     <LinearLayout
         android:layout_width="250dp"
@@ -102,7 +208,7 @@
             android:id="@+id/pay"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/customerservicebuttonstyle"
+            android:background="@drawable/paybuttonstyle"
             android:text="付款"
             android:textSize="32sp"
             android:textColor="#E0E0F0"
@@ -110,27 +216,7 @@
             android:fontFamily="@font/pinyinti"
             />
 
-    </LinearLayout>
+    </LinearLayout><!-- 付款按钮 -->
 
-    <LinearLayout
-        android:layout_width="250dp"
-        android:layout_height="90dp"
-        android:orientation="horizontal"
-        android:paddingTop="30dp"
-        android:layout_gravity="center_horizontal">
-
-        <Button
-            android:id="@+id/feedback"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/customerservicebuttonstyle"
-            android:text="问题反馈"
-            android:textSize="32sp"
-            android:textColor="#E0E0F0"
-            android:textAlignment="center"
-            android:fontFamily="@font/pinyinti"
-            />
-
-    </LinearLayout>
 </LinearLayout>
 

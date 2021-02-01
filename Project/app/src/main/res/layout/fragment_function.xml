@@ -28,7 +28,7 @@
         android:layout_height="150dp"
         android:orientation="vertical"
         android:paddingTop="20dp">
-        <!-- 字 -->
+
         <TextView
             android:id="@+id/functionpagetitle"
             android:height="70dp"
@@ -40,13 +40,13 @@
             android:layout_width="match_parent"
             android:layout_height="120dp" />
 
-    </LinearLayout>
+    </LinearLayout><!-- 标题 -->
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:orientation="horizontal">
-        <!-- 按钮 -->
+
         <Button
             android:id="@+id/scancodeuse"
             android:layout_width="match_parent"
@@ -60,7 +60,7 @@
             android:textColor="#E0E0F0"
             android:textSize="32sp" />
 
-    </LinearLayout>
+    </LinearLayout><!-- 使用小车按钮 -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -82,7 +82,7 @@
             android:fontFamily="@font/pinyinti"
             />
 
-    </LinearLayout>
+    </LinearLayout><!-- 赚取优惠按钮 -->
 
 </LinearLayout>
 
