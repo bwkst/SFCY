@@ -29,7 +29,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5fe38ee-5f83-4baf-97d8-fe546e7fc499" name="Default Changelist" comment="小车使用的所有页面对接以及基本框架" />
+    <list default="true" id="a5fe38ee-5f83-4baf-97d8-fe546e7fc499" name="Default Changelist" comment="小车使用的所有页面对接以及基本框架">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612169719737</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="小车使用的所有页面对接以及基本框架">
+      <created>1619209089286</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619209089286</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,10 +295,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="344" y="149" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog/0.0.1280.680@0.0.1280.680" timestamp="1619194212355" />
-    <state x="448" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612156367351">
+    <state x="448" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619209084245">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="448" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1612156367351" />
+    <state x="448" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1619209084245" />
     <state x="298" y="151" key="run.anything.popup" timestamp="1612162401317">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
