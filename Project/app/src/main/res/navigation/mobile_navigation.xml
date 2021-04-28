@@ -75,4 +75,19 @@
         android:label="用户专区"
         tools:layout="@layout/fragment_memberarea" />
     <!-- 用户专区页面 -->
+
+    <fragment
+        android:id="@+id/mainpage"
+        android:name="com.mainactivity.mainpage"
+        android:label="用户专区"
+        tools:layout="@layout/activity_main" />
+    <!-- 主页面 -->
+
+    <fragment
+        android:id="@+id/registerpage"
+        android:name="com.mainactivity.RegisterActivity"
+        android:label="用户专区"
+        tools:layout="@layout/activity_register" />
+    <!-- 注册页面 -->
+
 </navigation>

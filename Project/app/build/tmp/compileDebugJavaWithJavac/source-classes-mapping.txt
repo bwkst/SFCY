@@ -14,12 +14,13 @@ com/mainactivity/ui/function/CountPrice.java
  com.mainactivity.ui.function.CountPrice
  com.mainactivity.ui.function.CountPrice$1
  com.mainactivity.ui.function.CountPrice$2
-com/mainactivity/ui/function/FunctionViewModel.java
- com.mainactivity.ui.function.FunctionViewModel
+com/mainactivity/MainActivity.java
+ com.mainactivity.MainActivity
 com/mainactivity/ui/function/SuccessWin.java
  com.mainactivity.ui.function.SuccessWin
  com.mainactivity.ui.function.SuccessWin$1
  com.mainactivity.ui.function.SuccessWin$2
+ com.mainactivity.ui.function.SuccessWin$3
 com/mainactivity/ui/function/FunctionFragment.java
  com.mainactivity.ui.function.FunctionFragment
  com.mainactivity.ui.function.FunctionFragment$1
@@ -28,6 +29,8 @@ com/mainactivity/ui/function/FunctionFragment.java
  com.mainactivity.ui.function.FunctionFragment$4
 com/mainactivity/mainpage.java
  com.mainactivity.mainpage
+ com.mainactivity.mainpage$1
+ com.mainactivity.mainpage$2
 com/mainactivity/ui/function/CountScore.java
  com.mainactivity.ui.function.CountScore
  com.mainactivity.ui.function.CountScore$1
@@ -41,11 +44,9 @@ com/mainactivity/ui/memberarea/MemberareaFragment.java
  com.mainactivity.ui.memberarea.MemberareaFragment$1
 com/mainactivity/ui/cs/CsCar.java
  com.mainactivity.ui.cs.CsCar
-com/mainactivity/MainActivity.java
- com.mainactivity.MainActivity
- com.mainactivity.MainActivity$1
- com.mainactivity.MainActivity$2
 com/mainactivity/RegisterActivity.java
  com.mainactivity.RegisterActivity
  com.mainactivity.RegisterActivity$1
  com.mainactivity.RegisterActivity$2
+com/mainactivity/ui/function/FunctionViewModel.java
+ com.mainactivity.ui.function.FunctionViewModel

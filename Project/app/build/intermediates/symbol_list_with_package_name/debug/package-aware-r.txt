@@ -1697,6 +1697,7 @@ id line3
 id listMode
 id list_item
 id loginbutton
+id mainpage
 id masked
 id media_actions
 id membername
@@ -1777,6 +1778,7 @@ id register1
 id register2
 id registerbutton
 id registercount
+id registerpage
 id registerpassword
 id remaincreditscore
 id restart_preview

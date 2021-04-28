@@ -4,16 +4,16 @@
         "source": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_feedbackcar2buttonstyle.xml.flat",
-        "source": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\src\\main\\res\\drawable\\feedbackcar2buttonstyle.xml"
+        "merged": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_feedbackcarbuttonstyle.xml.flat",
+        "source": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\src\\main\\res\\drawable\\feedbackcarbuttonstyle.xml"
     },
     {
         "merged": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
         "source": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_feedbackcarbuttonstyle.xml.flat",
-        "source": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\src\\main\\res\\drawable\\feedbackcarbuttonstyle.xml"
+        "merged": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_feedbackcar2buttonstyle.xml.flat",
+        "source": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\src\\main\\res\\drawable\\feedbackcar2buttonstyle.xml"
     },
     {
         "merged": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bluetoothwarningbuttonstyle.xml.flat",
@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
-    },
-    {
         "merged": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mainpage.xml.flat",
         "source": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\src\\main\\res\\layout\\activity_mainpage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\Kristine\\Desktop\\BUPT\\SFC\\SFCCode\\Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_feedbackpricebuttonstyle.xml.flat",
