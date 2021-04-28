@@ -25,31 +25,32 @@
 17-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/Theme.MainActivity" >
-19-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:11:9-50
-20        <activity android:name="com.mainactivity.RegisterActivity" />
-20-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:12:9-63
-20-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:12:19-51
-21        <activity
-21-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:13:9-15:63
-22            android:name="com.mainactivity.mainpage"
-22-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:14:13-37
-23            android:label="@string/title_activity_mainpage" />
-23-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:15:13-60
-24        <activity android:name="com.mainactivity.MainActivity" >
-24-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:16:9-22:20
-24-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:16:19-47
-25            <intent-filter>
-25-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:17:13-21:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:18:17-69
-26-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:18:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:20:17-77
-28-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:20:27-74
-29            </intent-filter>
-30        </activity>
-31    </application>
-32
-33</manifest>
+19        android:testOnly="true"
+20        android:theme="@style/Theme.MainActivity" >
+20-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:11:9-50
+21        <activity android:name="com.mainactivity.RegisterActivity" />
+21-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:12:9-63
+21-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:12:19-51
+22        <activity
+22-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:13:9-15:63
+23            android:name="com.mainactivity.mainpage"
+23-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:14:13-37
+24            android:label="@string/title_activity_mainpage" />
+24-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:15:13-60
+25        <activity android:name="com.mainactivity.MainActivity" >
+25-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:16:9-22:20
+25-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:16:19-47
+26            <intent-filter>
+26-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:18:17-69
+27-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:20:17-77
+29-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32    </application>
+33
+34</manifest>
