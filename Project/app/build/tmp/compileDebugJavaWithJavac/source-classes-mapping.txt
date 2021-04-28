@@ -1,50 +1,8 @@
-com/mainactivity/ui/function/Pay.java
- com.mainactivity.ui.function.Pay
-com/mainactivity/BuildConfig.java
- com.mainactivity.BuildConfig
-com/mainactivity/ui/function/FailToOpen.java
- com.mainactivity.ui.function.FailToOpen
- com.mainactivity.ui.function.FailToOpen$1
-com/mainactivity/ui/function/SuccessUse.java
- com.mainactivity.ui.function.SuccessUse
- com.mainactivity.ui.function.SuccessUse$1
- com.mainactivity.ui.function.SuccessUse$2
- com.mainactivity.ui.function.SuccessUse$3
-com/mainactivity/ui/function/CountPrice.java
- com.mainactivity.ui.function.CountPrice
- com.mainactivity.ui.function.CountPrice$1
- com.mainactivity.ui.function.CountPrice$2
-com/mainactivity/ui/function/FunctionViewModel.java
- com.mainactivity.ui.function.FunctionViewModel
-com/mainactivity/ui/function/SuccessWin.java
- com.mainactivity.ui.function.SuccessWin
- com.mainactivity.ui.function.SuccessWin$1
- com.mainactivity.ui.function.SuccessWin$2
-com/mainactivity/ui/function/FunctionFragment.java
- com.mainactivity.ui.function.FunctionFragment
- com.mainactivity.ui.function.FunctionFragment$1
- com.mainactivity.ui.function.FunctionFragment$2
- com.mainactivity.ui.function.FunctionFragment$3
- com.mainactivity.ui.function.FunctionFragment$4
-com/mainactivity/mainpage.java
- com.mainactivity.mainpage
-com/mainactivity/ui/function/CountScore.java
- com.mainactivity.ui.function.CountScore
- com.mainactivity.ui.function.CountScore$1
- com.mainactivity.ui.function.CountScore$2
-com/mainactivity/ui/memberarea/MemberareaViewModel.java
- com.mainactivity.ui.memberarea.MemberareaViewModel
-com/mainactivity/ui/cs/CsPrice.java
- com.mainactivity.ui.cs.CsPrice
-com/mainactivity/ui/memberarea/MemberareaFragment.java
- com.mainactivity.ui.memberarea.MemberareaFragment
- com.mainactivity.ui.memberarea.MemberareaFragment$1
-com/mainactivity/ui/cs/CsCar.java
- com.mainactivity.ui.cs.CsCar
 com/mainactivity/MainActivity.java
  com.mainactivity.MainActivity
  com.mainactivity.MainActivity$1
- com.mainactivity.MainActivity$2
+com/mainactivity/mainpage.java
+ com.mainactivity.mainpage
 com/mainactivity/RegisterActivity.java
  com.mainactivity.RegisterActivity
  com.mainactivity.RegisterActivity$1

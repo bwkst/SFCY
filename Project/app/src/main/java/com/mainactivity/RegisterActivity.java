@@ -34,7 +34,7 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //跳转到主页面
-                Intent intent = new Intent(RegisterActivity.this,MainActivity.class);
+                Intent intent = new Intent(RegisterActivity.this,mainpage.class);
                 startActivity(intent);
             }
         });
