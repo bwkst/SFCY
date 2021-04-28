@@ -36,7 +36,6 @@ public class FunctionFragment extends Fragment {
             public void onClick(View v) {
                 //跳转到Fragment
                 Navigation.findNavController(root).navigate(R.id.successuse);
-
             }
         });
 

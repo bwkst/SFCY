@@ -6,63 +6,51 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml
+8-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml
+9-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:5:5-23:19
+11-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:5:5-23:19
 12        android:allowBackup="true"
-12-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:6:9-35
+12-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\Kristine\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.1.0] C:\Users\zong0\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:7:9-43
+15-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:8:9-41
+16-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:9:9-54
+17-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:10:9-35
+18-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/Theme.MainActivity" >
-20-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:11:9-50
+20-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:11:9-50
 21        <activity android:name="com.mainactivity.RegisterActivity" />
-21-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:12:9-63
-21-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:12:19-51
+21-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:12:9-63
+21-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:12:19-51
 22        <activity
-22-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:13:9-15:63
+22-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:13:9-15:63
 23            android:name="com.mainactivity.mainpage"
-23-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:14:13-37
+23-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:14:13-37
 24            android:label="@string/title_activity_mainpage" />
-24-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:15:13-60
+24-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:15:13-60
 25        <activity android:name="com.mainactivity.MainActivity" >
-25-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:16:9-22:20
-25-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:16:19-47
+25-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:16:9-22:20
+25-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:16:19-47
 26            <intent-filter>
-26-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:17:13-21:29
+26-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:17:13-21:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:18:17-69
-27-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:18:25-66
+27-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:18:17-69
+27-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:18:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:20:17-77
-29-->C:\Users\Kristine\Desktop\BUPT\SFC\SFCCode\Project\app\src\main\AndroidManifest.xml:20:27-74
+29-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:20:17-77
+29-->D:\bwkst\SFCY\Project\app\src\main\AndroidManifest.xml:20:27-74
 30            </intent-filter>
 31        </activity>
-32        <activity
-32-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\Kristine\.gradle\caches\transforms-2\files-2.1\95385796061e3b483fbf31fdcf20fafd\jetified-zxing-library-2.2\AndroidManifest.xml:12:9-17:63
-33            android:name="com.uuzuche.lib_zxing.activity.CaptureActivity"
-33-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\Kristine\.gradle\caches\transforms-2\files-2.1\95385796061e3b483fbf31fdcf20fafd\jetified-zxing-library-2.2\AndroidManifest.xml:13:13-74
-34            android:configChanges="orientation|keyboardHidden"
-34-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\Kristine\.gradle\caches\transforms-2\files-2.1\95385796061e3b483fbf31fdcf20fafd\jetified-zxing-library-2.2\AndroidManifest.xml:14:13-63
-35            android:screenOrientation="portrait"
-35-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\Kristine\.gradle\caches\transforms-2\files-2.1\95385796061e3b483fbf31fdcf20fafd\jetified-zxing-library-2.2\AndroidManifest.xml:15:13-49
-36            android:theme="@style/Theme.AppCompat.NoActionBar"
-36-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\Kristine\.gradle\caches\transforms-2\files-2.1\95385796061e3b483fbf31fdcf20fafd\jetified-zxing-library-2.2\AndroidManifest.xml:16:13-63
-37            android:windowSoftInputMode="stateAlwaysHidden" />
-37-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\Kristine\.gradle\caches\transforms-2\files-2.1\95385796061e3b483fbf31fdcf20fafd\jetified-zxing-library-2.2\AndroidManifest.xml:17:13-60
-38    </application>
-39
-40</manifest>
+32    </application>
+33
+34</manifest>

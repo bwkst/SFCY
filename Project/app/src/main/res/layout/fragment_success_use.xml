@@ -43,7 +43,7 @@
                 android:text="重量(KG)："
                 android:textColor="#161648"
                 android:textSize="30sp"
-                android:layout_width="250dp"
+                android:layout_width="200dp"
                 android:layout_height="60dp" />
 
             <TextView
@@ -53,9 +53,9 @@
                 android:text="111"
                 android:textColor="#161648"
                 android:textSize="30sp"
-                android:layout_width="130dp"
+                android:layout_width="150dp"
                 android:layout_height="60dp"
-                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
                 />
 
         </RelativeLayout>
@@ -74,20 +74,20 @@
                 android:id="@+id/counttime"
                 android:height="70dp"
                 android:fontFamily="@font/pinyinti"
-                android:text="剩余时间(分钟)："
+                android:text="时间(分钟)："
                 android:textColor="#161648"
                 android:textSize="30sp"
-                android:layout_width="250dp"
+                android:layout_width="200dp"
                 android:layout_height="80dp" />
 
             <TextView
                 android:id="@+id/counttimeno"
                 android:height="70dp"
                 android:fontFamily="@font/pinyinti"
-                tools:text="15:00"
+                android:text="111"
                 android:textColor="#161648"
                 android:textSize="30sp"
-                android:layout_width="130dp"
+                android:layout_width="150dp"
                 android:layout_height="60dp"
                 android:layout_alignParentRight="true"
                 />
@@ -114,7 +114,6 @@
             android:fontFamily="@font/pinyinti"
             />
 
-
     </LinearLayout><!-- 结束运行按钮 -->
 
     <LinearLayout
@@ -130,26 +129,6 @@
             android:layout_height="match_parent"
             android:background="@drawable/feedbackcarbuttonstyle"
             android:text="问题反馈"
-            android:textSize="32sp"
-            android:textColor="#E0E0F0"
-            android:textAlignment="center"
-            android:fontFamily="@font/pinyinti"
-            />
-    </LinearLayout><!-- 问题反馈按钮 -->
-
-    <LinearLayout
-        android:layout_width="250dp"
-        android:layout_height="90dp"
-        android:orientation="horizontal"
-        android:paddingTop="30dp"
-        android:layout_gravity="center_horizontal">
-
-        <Button
-            android:id="@+id/buttonnn"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/feedbackcarbuttonstyle"
-            android:text="start"
             android:textSize="32sp"
             android:textColor="#E0E0F0"
             android:textAlignment="center"

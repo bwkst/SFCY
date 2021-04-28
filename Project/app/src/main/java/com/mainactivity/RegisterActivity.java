@@ -1,18 +1,13 @@
 package com.mainactivity;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.navigation.Navigation;
 
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -20,27 +15,27 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class RegisterActivity extends Fragment {
+public class RegisterActivity extends AppCompatActivity {
 
     private Button button;
     private CheckBox checkBox;
     private EditText editText;
 
-    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View root = inflater.inflate(R.layout.activity_register, container, false);
-
-        button = root.findViewById(R.id.btn_register);
-        checkBox = root.findViewById(R.id.cb);
-        editText = root.findViewById(R.id.registerpassword);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_register);
+        button = (Button) findViewById(R.id.btn_register);
+        checkBox = (CheckBox) findViewById(R.id.cb);
+        editText = (EditText) findViewById(R.id.registerpassword);
 
         //点击按钮跳转主页面
         button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                //跳转到主Fragment
-                Navigation.findNavController(root).navigate(R.id.mainpage);
+            public void onClick(View view) {
+                //跳转到主页面
+                Intent intent = new Intent(RegisterActivity.this,mainpage.class);
+                startActivity(intent);
             }
         });
 
@@ -60,7 +55,6 @@ public class RegisterActivity extends Fragment {
 
             }
         });
-        return root;
     }
 }
 
